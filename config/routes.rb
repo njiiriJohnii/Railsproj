@@ -2,9 +2,8 @@ Rubyconf::Application.routes.draw do
 get "welcome/index"
 get "about" =>"welcome#about"
 get "Login" =>"welcome#login"
-get "comingsoon" =>"welcome#comingsoon"
 root to: "welcome#index"
-post '/subscribe' => "comingsoon#comingsoon"
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -9,13 +9,15 @@
 <body>
 <body class="<%= controller_name%><%= action_name %>">
 
-<div id="nav">
-<%= link_to_unless_current("comingsoon",root_path) %>
-<%= link_to_unless_current("about",{action: "about"}) %>
-<%= link_to_unless_current("login",{action: "login"}) %>
-<%= link_to_unless_current("index",{action: "index"}) %>
-</div>
-<%= yield %>
+<div class ="container">
+  <ul class="nav-tabs">
+		<li><%= link_to_unless_current("index",root_path) %></li>
+		<li><%= link_to_unless_current("about",{action: "about"}) %></li>
+		<li><%= link_to_unless_current("login",{action: "login"}) %></li>
+		
+		</ul>
 
+<%= yield %>
+</div>
 </body>
 </html>

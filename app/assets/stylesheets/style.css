@@ -1,0 +1,18 @@
+body{
+	background-color: white;
+	width: 800px;
+	margin: auto;
+	height: 1200px;
+	background-image: url('img12.jpg');
+
+
+}
+
+
+#nav{
+	text-align: center;
+	height: 100px;
+	width:800px;
+	margin: 0;
+	padding: 0;
+}

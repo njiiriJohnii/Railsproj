@@ -7,14 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<body class="<%= controller_name%><%= action_name %>">
+<body class="<%= controller_name%><%= action_name %>"
 
 <div class ="container">
   <ul class="nav-tabs">
 		<li><%= link_to_unless_current("index",root_path) %></li>
 		<li><%= link_to_unless_current("about",{action: "about"}) %></li>
 		<li><%= link_to_unless_current("login",{action: "login"}) %></li>
-		
+		<li><%= link_to_unless_current("contactus",{action: "contactus"}) %></li>
+		<li><%= link_to_unless_current("faq",{action: "faq"}) %></li>
 		</ul>
 
 <%= yield %>

@@ -1,5 +1,5 @@
 body{
-	background-color: white;
+	background-color: blue;
 	width: 800px;
 	margin: auto;
 	height: 1200px;
@@ -9,7 +9,7 @@ body{
 }
 
 
-#nav{
+.container{
 	text-align: center;
 	height: 100px;
 	width:800px;

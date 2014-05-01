@@ -1,10 +1,15 @@
 Rubyconf::Application.routes.draw do
+  get "session/user_session"
+  resources :users
+
 get "welcome/index"
 get "about" =>"welcome#about"
 get "Login" =>"welcome#login"
 get "contactus" =>"welcome#contactus"
 get "faq" =>"welcome#faq"
 root to: "welcome#index"
+
+
 
 
 

@@ -1,18 +1,52 @@
 body{
-	background-color: blue;
-	width: 800px;
-	margin: auto;
-	height: 1200px;
-	background-image: url('img12.jpg');
+	
+ background-image: url('imgb.png');
 
 
 }
-
-
-.container{
-	text-align: center;
-	height: 100px;
-	width:800px;
-	margin: 0;
-	padding: 0;
+#container{
+ margin-right: auto;
+ 	 margin-left: auto;
+ 	 width: 1000px;
+ 	 height: 1200px;
+	 text-align: center;
+	 margin-top: 0px;
+	 margin-bottom: 0px;
+	 position: relative;
+	 background-color: white;
+     top:0;
+    
 }
+#ernst{
+	width: 1000px;
+	background: aqua;
+    border-radius: 0px;
+    height: 100px;
+    background-color: aqua;
+}
+#container ul li 
+{
+				display: inline;
+				float: left;
+				list-style: none;
+				margin-right: 25px;
+				padding: 10px;
+}
+#container ul li a{
+		text-decoration: none;
+		list-style: none;
+
+
+		font-family: arial;
+		font-size: 20px;
+		color: #000;
+		border-radius: 0px;
+	
+		text-align: center;
+	    background: transparent;
+}
+
+#container ul li a:hover{
+		background: orange;
+		text-shadsow:1px 1px 1px 1px black;
+	}
